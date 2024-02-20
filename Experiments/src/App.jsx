@@ -12,12 +12,12 @@ function App() {
     {
       id: 2,
       title: "ead food",
-      description: "eat food",
+      description: "eat your  food",
     },
     {
       id: 1,
       title: "go to class",
-      description: "go to class",
+      description: "go to class  ",
     },
   ]);
   function addTodo() {
