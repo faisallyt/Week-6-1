@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [todo, setTodos] = useState([]);
-
   useEffect(() => {
     fetch("https://sum-server.100xdevs.com/todos").then(async (res) => {
       const data = await res.json();
